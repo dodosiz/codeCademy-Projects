@@ -1,0 +1,107 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+
+/* Header */
+.nav-pills li a {
+  color: #d8192f;
+}
+
+.nav-pills li.active a,
+.nav-pills li a:hover,
+.section .btn:hover {
+  background-color:rgba(216,25,47,1);
+  box-shadow:0 2px 4px rgba(0,0,0,.5); 
+  color:#fff;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+  height: 500px;
+  background: url("http://www.al-abraaj.com/images/pics/Greek-Salad-_245.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+.jumbotron h1 {
+	color: #40404A;
+}
+
+/* Create */
+#second_heading {
+	margin-left: 15px;
+}
+
+/* Share*/
+#third_heading {
+	margin-left: 30px;
+}
+
+/* Banner */
+.banner, .supporting {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.banner {
+  background-color:#36343f;
+  height:180px; 
+  color: #fff;
+}
+
+.banner a {
+	background-color: rgba(216,25,47,.5);
+  color: #F0F0F0;
+  margin-top: 15px;
+}
+
+.section h3 {
+	text-align: center;
+  color: rgba(20,20,20,0.5);
+  font-size: 20px;
+  margin-left: 25px;
+}
+
+.section li {
+	text-align: center;
+  color: rgba(20,20,20,0.9);
+  list-style: none;
+}
+
+.footer {
+	font-family: monospace;
+  font-size: 12px;
+  color: #A0A0A0;
+  background-color: #EEEEEE;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 680px) {
+  .header h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .nav {
+    float: none;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 220px;
+  }
+
+  .nav-pills li:first-child a  {
+    margin-left: 0;
+  }
+}

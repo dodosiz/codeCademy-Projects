@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+body {
+	background: url('https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+.header li {
+	display: inline;
+  margin: 0 5px;
+}
+
+.header li:hover {
+	color: #F0F0F0;
+}
+
+.container {
+  max-width:940px;
+}
+
+/* Header */
+.header {
+  padding: 10px 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* Jumbotron */
+.jumbotron {
+  position: relative;
+  top: 50px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  background: none;
+  text-align: center;
+  color: #FAFAFA;
+}
+
+/* Supporting */
+.supporting {
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  color: #FAFAFA;
+}
+
+.section button {
+	background-color: rgba(0,255,188,0.5);
+  margin-left: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
